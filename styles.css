@@ -1,0 +1,20 @@
+.covidBackground {
+    background-image: url('./images/covidimg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.fitnessBackground {
+    background-image: url('./images/fitnessimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nutritionBackground {
+    background-image: url('./images/nutritionimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

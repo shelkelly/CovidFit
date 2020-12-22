@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Fitness";
+import Fitness from "./pages/Fitness";
 import About from "./pages/Nutrition";
 import Blog from "./pages/Signup";
 import Contact from "./pages/Signin";
@@ -29,3 +29,5 @@ class Home extends Component {
         }
       };
 };
+
+export default Home;

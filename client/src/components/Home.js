@@ -15,6 +15,7 @@ class Home extends Component {
       };
 
       renderPage = () => {
+        <NavTabs />
         if (this.state.currentPage === "Fitness") {
           return <Fitness />;
         } else if (this.state.currentPage === "Nutrition") {
@@ -27,3 +28,4 @@ class Home extends Component {
           return <Home />;
         }
       };
+};

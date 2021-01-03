@@ -3,7 +3,8 @@ const { search } = require("./routes");
 const Schema = mongoose.Schema;
 
 const searchSchema = new Schema ({
-    search: { type: String, required: true }
+    search: { type: String },
+    nix_item_id: { type: String }
 });
 
 const Search = mongoose.model("Search", searchSchema);
